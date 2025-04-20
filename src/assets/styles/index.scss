@@ -1,11 +1,11 @@
 @use "normalize.css";
+@use "variables";
 @use "fonts";
-
 
 * {
   margin: 0;
   padding: 0;
-  font-family: var(--font-family), sans-serif;
+  font-family: var(--app-text-primary-color), sans-serif;
   list-style-type: none;
   box-sizing: border-box;
   color: var(--general-black);
@@ -14,6 +14,11 @@
   &:focus {
     outline: none;
   }
+}
+
+body {
+  background: var(--app-bg-primary-color);
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .container {
