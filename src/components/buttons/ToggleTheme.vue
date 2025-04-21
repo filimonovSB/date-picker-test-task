@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import IconDarkTheme from '@/components/icons/IconDarkTheme.vue'
 import IconLightTheme from '@/components/icons/IconLightTheme.vue'
-import useTheme from '@/composables/useTheme.ts'
+import useTheme from '@/composables/use-theme.ts'
 
 const { isDark, toggleTheme } = useTheme()
 </script>
