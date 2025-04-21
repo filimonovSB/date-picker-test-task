@@ -12,7 +12,7 @@ import formatDateAndTime from '@/utils/format-date-and-time.ts'
 
 const props = withDefaults(
   defineProps<{
-    withTime: boolean
+    withTime?: boolean
   }>(),
   {
     withTime: false
