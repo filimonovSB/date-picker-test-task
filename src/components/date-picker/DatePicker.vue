@@ -104,6 +104,7 @@ const saveTimeHandler = (newDate: Date) => {
     <DatePickerInput
       v-bind="$attrs"
       v-model="modelValue"
+      disabled
       @toggle="toggleCalendar"
     />
     <div
